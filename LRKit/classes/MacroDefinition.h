@@ -19,6 +19,19 @@
 
 //-------------------获取设备大小-------------------------
 
+//----------------------颜色类---------------------------
+// rgb颜色转换（16进制->10进制）
+#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
+//带有RGBA的颜色设置
+#define COLOR_RGBA(R, G, B, A) [UIColor colorWithRed:R/255.0 green:G/255.0 blue:B/255.0 alpha:A]
+
+#define COLOR_RGB(r,g,b) COLOR_RGBA(r,g,b,1.0f)
+
+//清除背景色
+#define CLEAR_COLOR [UIColor clearColor]
+
+//----------------------颜色类--------------------------
 
 //----------------------系统----------------------------
 
