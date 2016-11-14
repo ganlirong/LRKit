@@ -8,6 +8,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 #define ROW_HEIGHT                 kDefaultRowHeight                        //默认的cell的高度
 #define TOOLBAR_HEIGHT             kDefaultPortraitToolbarHeight            //纵向工具栏的高度

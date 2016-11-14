@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		324FC7281DAB797A00207EBF /* NSArray+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 324FC7271DAB797A00207EBF /* NSArray+Additions.m */; };
+		324FC8B11DABDD6100207EBF /* NSTimer+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 324FC8B01DABDD6100207EBF /* NSTimer+Addition.m */; };
+		324FC8B61DABDFDA00207EBF /* GlobalUICommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 324FC8B31DABDFDA00207EBF /* GlobalUICommon.m */; };
+		324FC8C41DABF01200207EBF /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 324FC8C31DABF01200207EBF /* BaseModel.m */; };
 		32FABEF81DAA01250070FBAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FABEF71DAA01250070FBAD /* main.m */; };
 		32FABEFB1DAA01250070FBAD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FABEFA1DAA01250070FBAD /* AppDelegate.m */; };
 		32FABEFE1DAA01250070FBAD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FABEFD1DAA01250070FBAD /* ViewController.m */; };
@@ -46,8 +49,16 @@
 
 /* Begin PBXFileReference section */
 		2D3F8E530A1680E6D31E90FA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3232920D1DD96C9D00229455 /* LRKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRKit.h; sourceTree = "<group>"; };
 		324FC7261DAB797A00207EBF /* NSArray+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Additions.h"; sourceTree = "<group>"; };
 		324FC7271DAB797A00207EBF /* NSArray+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Additions.m"; sourceTree = "<group>"; };
+		324FC8AF1DABDD6100207EBF /* NSTimer+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Addition.h"; sourceTree = "<group>"; };
+		324FC8B01DABDD6100207EBF /* NSTimer+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Addition.m"; sourceTree = "<group>"; };
+		324FC8B21DABDFDA00207EBF /* GlobalUICommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalUICommon.h; sourceTree = "<group>"; };
+		324FC8B31DABDFDA00207EBF /* GlobalUICommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalUICommon.m; sourceTree = "<group>"; };
+		324FC8B41DABDFDA00207EBF /* MacroDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroDefinition.h; sourceTree = "<group>"; };
+		324FC8C21DABF01200207EBF /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		324FC8C31DABF01200207EBF /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
 		32FABEF31DAA01250070FBAD /* LRKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LRKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32FABEF71DAA01250070FBAD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32FABEF91DAA01250070FBAD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -178,6 +189,14 @@
 		32FABF291DAA01520070FBAD /* classes */ = {
 			isa = PBXGroup;
 			children = (
+				3232920D1DD96C9D00229455 /* LRKit.h */,
+				324FC8C21DABF01200207EBF /* BaseModel.h */,
+				324FC8C31DABF01200207EBF /* BaseModel.m */,
+				324FC8B21DABDFDA00207EBF /* GlobalUICommon.h */,
+				324FC8B31DABDFDA00207EBF /* GlobalUICommon.m */,
+				324FC8B41DABDFDA00207EBF /* MacroDefinition.h */,
+				324FC8AF1DABDD6100207EBF /* NSTimer+Addition.h */,
+				324FC8B01DABDD6100207EBF /* NSTimer+Addition.m */,
 				32FABF3F1DAA03700070FBAD /* TouchImageView.h */,
 				32FABF401DAA03700070FBAD /* TouchImageView.m */,
 				32FABF411DAA03700070FBAD /* UIImage+Addition.h */,
@@ -406,10 +425,13 @@
 			files = (
 				32FABF3A1DAA01CC0070FBAD /* NSDate+Additions.m in Sources */,
 				32FABF3E1DAA01CC0070FBAD /* NSString+MD5.m in Sources */,
+				324FC8B11DABDD6100207EBF /* NSTimer+Addition.m in Sources */,
+				324FC8C41DABF01200207EBF /* BaseModel.m in Sources */,
 				32FABF3B1DAA01CC0070FBAD /* NSDictionary+Additions.m in Sources */,
 				32FABEFE1DAA01250070FBAD /* ViewController.m in Sources */,
 				324FC7281DAB797A00207EBF /* NSArray+Additions.m in Sources */,
 				32FABF471DAA03700070FBAD /* TouchImageView.m in Sources */,
+				324FC8B61DABDFDA00207EBF /* GlobalUICommon.m in Sources */,
 				32FABF391DAA01CC0070FBAD /* NSData+Base64.m in Sources */,
 				32FABEFB1DAA01250070FBAD /* AppDelegate.m in Sources */,
 				32FABEF81DAA01250070FBAD /* main.m in Sources */,

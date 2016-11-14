@@ -7,6 +7,7 @@
 //
 
 #import <CommonCrypto/CommonDigest.h>
+#import <UIKit/UIKit.h>
 
 @interface NSString (MD5)
 
